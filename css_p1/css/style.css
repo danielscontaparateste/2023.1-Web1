@@ -1,0 +1,44 @@
+
+p {
+    /* font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-style: italic; */
+    font: italic small-caps bold 20px 'Courier New', Courier, monospace;
+    /* text-align: right; */
+}
+
+h2,h3{
+    color: red;
+    text-decoration: underline;
+}
+
+#p3{
+    font-size: 30px;
+    background-color: yellow;
+    color: black;
+}
+
+
+#lista1{
+    list-style: circle;
+}
+
+
+ul#lista2{
+    list-style: square;
+}
+
+li.disp{
+    color: green;
+    font-weight: bold;
+}
+
+.indisp{
+    color: red;
+}
+
+.right{
+    text-align: right;
+}
