@@ -1,0 +1,29 @@
+#democrats{
+    background: gray;
+    /* border-color: black;
+    border-width: 2px;
+    border-style: solid; */
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 50%;
+    /* width: 300px; */
+    margin: 0px 0px 10px 0px; /* margin-bottom: 10px; */
+    padding: 20px; /* padding: 20px 20px 20px 20px; */
+    float: left;
+}
+
+#republicans{
+    background: lightgray;
+    /* border: 2px solid black; */
+    border-top: 2px solid blue;
+    border-right: 2px dotted red;
+    border-bottom: 10px dashed black;
+    border-radius: 30px;
+    width: 30%;
+    float: left;
+    
+}
+
+ul{
+    background-color: white;
+}

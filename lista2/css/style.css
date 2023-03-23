@@ -1,0 +1,145 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+#corpo{
+    border: 1px solid black;
+    /* width: 80%; */
+    width: 100%;
+    height: 500px;
+    background-color: lightgray;
+}
+
+#header{
+    border: 1px solid red;
+    width: 100%;
+    height: 60px;
+    background-color: lightblue;
+}
+nav{
+    border: 1px solid purple;
+    width: 100%;
+    height: 40px;
+}
+
+main{
+    border: 1px solid green;
+    width: 100%;
+    height: 380px;
+}
+
+.cols{
+    float: left;
+    border: 2px solid black;
+    height: 100%;
+}
+
+.col1{
+    width: 25%;
+    overflow: scroll;
+}
+
+.col2{
+    width: 50%;
+    position: relative;
+}
+
+.col3{
+    width: 25%;
+}
+
+#col3-sup{
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px dashed black;
+}
+
+#col3-inf{
+    width: 100%;
+    height: 50%;
+}
+
+footer{
+    width: 100%;
+    height: 20px;
+    border: 1px solid blue;
+}
+
+/* MENU */
+
+ul {
+    list-style-type: none;
+    padding: 10px 10px 10px 0px;
+    margin: 0;
+    background-color: black;
+  
+  }
+  
+li{
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: gray;
+}
+
+
+/* Boxes da coluna central */
+
+.box{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#box1{
+    background-color: rgb(249,113,0);
+    top: 30px;
+    left: 30px;
+    /* z-index: -1; */
+}
+
+#box2{
+    background-color: rgb(255,255,0);
+    top: 30px;
+    right: 30px;
+}
+
+#box3{
+    background-color: rgb(12,255,0);
+    bottom: 30px;
+    right: 30px;
+}
+
+#box3-1{
+    position: inherit;
+    border: 1px solid black;
+    width: 30%;
+    height: 30%;
+    top: 10px;
+    left: 10px;
+}
+
+#box4{
+    background-color: rgb(17,255,255);
+    bottom: 30px;
+    left: 30px;
+}
+
+.box_teste{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    position: relative;
+    left: 0;
+    top: 0px;
+}
