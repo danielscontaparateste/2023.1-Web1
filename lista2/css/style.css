@@ -54,6 +54,7 @@ main{
     width: 100%;
     height: 50%;
     border-bottom: 1px dashed black;
+    position: relative;
 }
 
 #col3-inf{
@@ -142,4 +143,25 @@ a:hover{
     position: relative;
     left: 0;
     top: 0px;
+}
+
+#b1{
+    background-color: rgb(249,113,0);
+    top: 15px;
+    left: 15px; 
+    z-index: 0;
+}
+
+#b2{
+    background-color: rgb(255,255,0);
+    top: 45px;
+    left: 45px; 
+    z-index: 2;
+}
+
+#b3{
+    background-color: rgb(12,255,0);
+    top: 75px;
+    left: 75px; 
+    z-index: 1;
 }

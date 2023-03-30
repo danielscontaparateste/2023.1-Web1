@@ -1,0 +1,23 @@
+li {
+    display: inline;
+    /* padding: 0px 10px 0px 10px; */
+    /* background-color: black;  */
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px 10px 10px 0px; 
+    background-color: black; 
+  
+  }
+
+a.opcaoMenu{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
