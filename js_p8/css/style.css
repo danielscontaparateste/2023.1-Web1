@@ -1,0 +1,19 @@
+.par{
+    color: red;
+}
+
+.impar{
+    color: black;
+}
+
+.iptDefault{
+    background-color: white;
+}
+
+.iptPar{
+    background-color: lightgreen;
+} 
+
+.iptImpar{
+    background-color: pink;
+} 
