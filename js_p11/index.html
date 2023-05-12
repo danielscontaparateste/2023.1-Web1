@@ -9,22 +9,34 @@
 
 </head>
 <body>
-    <h2>Responda as questões a seguir: </h2><br>
+    <h2>Responda as questões a seguir: </h2>
 
     <ol>
-        <li>Em que instituição você estuda? </li><br>
+        <li>Em que instituição você estuda? </li>
         <input type="radio" id="iptRadio1" name="inst" value="1">
-        <label for="iptRadio1">IFCE</label>
+        <label name="lblInst" for="iptRadio1">IFCE</label>
         <input type="radio" id="iptRadio2" name="inst" value="2">
-        <label for="iptRadio2">UFC</label>
+        <label name="lblInst" for="iptRadio2">UFC</label>
         <input type="radio" id="iptRadio3" name="inst" value="3">
-        <label for="iptRadio3">UECE</label>
+        <label name="lblInst" for="iptRadio3">UECE</label>
         <input type="radio" id="iptRadio4" name="inst" value="4">
-        <label for="iptRadio4">UNIFOR</label>
+        <label name="lblInst" for="iptRadio4">UNIFOR</label>
+
+        <li>Em que estado você reside? </li>
+        <select id="slcEstado">
+            <option value="1">Ceará</option>
+            <option value="2">Pernambuco</option>
+            <option value="3">Minas Gerais</option>
+            <option value="4">Rio de Janeiro</option>
+        </select>
     
     </ol>
 
-        <button id="btnInst" onclick="verResposta()">Responder</button>
+    <button id="btnInst" onclick="verResposta()">Responder</button>
+
+    <br><br>
+
+    <span id="spnRes"></span>
 
 
     <script src="js/script.js"></script>
