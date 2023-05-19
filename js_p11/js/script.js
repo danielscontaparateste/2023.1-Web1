@@ -9,7 +9,6 @@ function verResposta(){
     for (let k=0; k < ops.length; k++){
         if (ops[k].checked == true){
 
-            // Busca o elemento HTML onde será escrito a resposta
             respostas += "1a. Questão: "+lbsOps[k].innerHTML;
 
             // console.log(lbsOps[k].innerHTML);
