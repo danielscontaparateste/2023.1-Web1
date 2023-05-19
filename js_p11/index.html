@@ -29,6 +29,14 @@
             <option value="3">Minas Gerais</option>
             <option value="4">Rio de Janeiro</option>
         </select>
+
+        <li> Observações</li>
+        <p> Meta: 20 caracteres </p>
+		<textarea onkeyup="contagem(this,'status','lblcontagem');" id="ttobs" rows="10" cols="50"></textarea>
+		<label id="lblcontagem"></label><br>
+		Situação: <meter id="status" min="0" max="20"></meter>
+		<br>
+		<progress id="progresso" max="100" value="0"></progress>
     
     </ol>
 
