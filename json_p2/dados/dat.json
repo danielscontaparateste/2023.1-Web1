@@ -1,0 +1,9 @@
+{
+  "largura": 50,
+  "altura": 50,
+  "cor": "red",
+  "borderWidth": "3",
+  "borderStyle": "solid",
+  "borderColor": "black",
+  "unidade": "px"
+}
