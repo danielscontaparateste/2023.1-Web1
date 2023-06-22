@@ -1,0 +1,32 @@
+{
+    "quadrados": [
+      {
+        "largura": 50,
+        "altura": 50,
+        "cor": "black",
+        "borderWidth": "3",
+        "borderStyle": "solid",
+        "borderColor": "black",
+        "unidade": "px"
+      },
+      {
+        "largura": 250,
+        "altura": 250,
+        "cor": "green",
+        "borderWidth": "3",
+        "borderStyle": "dashed",
+        "borderColor": "black",
+        "unidade": "px"
+      },
+      {
+        "largura": 50,
+        "altura": 50,
+        "cor": "pink",
+        "borderWidth": "3",
+        "borderStyle": "dashed",
+        "borderColor": "black",
+        "unidade": "px"
+      }
+    ]
+  }
+  

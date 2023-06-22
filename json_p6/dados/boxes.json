@@ -1,0 +1,29 @@
+{
+    "quadrados": [
+      {
+        "estado": "quente",
+        "label": "A01"
+      },
+      {
+        "estado": "frio",
+        "label": "B03"
+      },
+      {
+        "estado": "frio",
+        "label": "B21"
+      },
+      {
+        "estado": "quente",
+        "label": "A32"
+      },
+      {
+        "estado": "frio",
+        "label": "A17"
+      },
+      {
+        "estado": "quente",
+        "label": "A41"
+      }
+    ]
+  }
+  
